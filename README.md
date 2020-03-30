@@ -1,5 +1,18 @@
 # scml
 
+## scml website
+https://scml.cs.brown.edu/
+
+## details and rules
+http://www.yasserm.com/scml/scml2020.pdf
+http://web.tuat.ac.jp/~katfuji/ANAC2020/cfp/scml_cfp.pdf
+
+## tutorials
+https://www.youtube.com/playlist?list=PLqvs51K2Mb8IJe5Yz5jmYrRAwvIpGU2nF
+http://www.yasserm.com/scml/scml2020docs/tutorials.html
+
+## example agent
+
 create virtual environment
 
 ```python3 -m venv venv```
