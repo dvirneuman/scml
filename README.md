@@ -7,6 +7,9 @@ https://scml.cs.brown.edu/
 http://www.yasserm.com/scml/scml2020.pdf
 http://web.tuat.ac.jp/~katfuji/ANAC2020/cfp/scml_cfp.pdf
 
+## strategy doc
+https://docs.google.com/document/d/1Ip_anncBNpUhVasV7ClLyWpnM8BCL5sT04_5sp7GBdQ/edit?ts=5e80bd61
+
 ## tutorials
 https://www.youtube.com/playlist?list=PLqvs51K2Mb8IJe5Yz5jmYrRAwvIpGU2nF
 http://www.yasserm.com/scml/scml2020docs/tutorials.html
