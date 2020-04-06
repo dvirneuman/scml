@@ -24,3 +24,4 @@ wget www.yasserm.com/scml/scml2020.zip
 unzip scml2020.zip
 python scml2020/myagent/myagent.py
 ```
+    
