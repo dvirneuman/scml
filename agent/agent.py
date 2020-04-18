@@ -88,7 +88,7 @@ class BaRgent(
     _NegotiationCallbacks,
     SupplyDrivenProductionStrategy,
     StepNegotiationManager,
-    PredictionBasedTradingStrategy,
+    MyPredictionBasedTradingStrategy,
     SCML2020Agent
 ):
     """

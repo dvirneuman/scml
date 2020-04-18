@@ -25,3 +25,7 @@ unzip scml2020.zip
 python scml2020/myagent/myagent.py
 ```
     
+to create zip file that can be submitted:
+```bash
+zip submission.zip agent/*
+```
