@@ -52,6 +52,8 @@ from negmas import (
     MechanismState, Breach,
 )
 
+from agent.agent import BaRgent
+
 def run(competitors,
         competition='std',
         reveal_names=True,
@@ -101,4 +103,5 @@ def run(competitors,
 
 
 if __name__ == '__main__':    
-    run()
+    competitors = [BaRgent, DecentralizingAgent, BuyCheapSellExpensiveAgent]
+    run(competitors, n_steps=16)

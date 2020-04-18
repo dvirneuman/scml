@@ -57,8 +57,7 @@ from scml.scml2020 import PredictionBasedTradingStrategy
 from scml.scml2020 import MovingRangeNegotiationManager, StepNegotiationManager
 from scml.scml2020 import DemandDrivenProductionStrategy, SupplyDrivenProductionStrategy
 
-from runner import run
-from trading import MyPredictionBasedTradingStrategy
+from .trading import MyPredictionBasedTradingStrategy
 
 class _NegotiationCallbacks:
     def acceptable_unit_price(self, step, sell) -> int:
@@ -85,7 +84,7 @@ class _NegotiationCallbacks:
 
         return needed[steps[0] : steps[1]] - secured[steps[0] : steps[1]]
 
-class MmyComponentsBasedAgent(
+class BaRgent(
     _NegotiationCallbacks,
     SupplyDrivenProductionStrategy,
     StepNegotiationManager,
@@ -107,5 +106,5 @@ class MmyComponentsBasedAgent(
 
 
 if __name__ == '__main__':    
-    competitors = [MmyComponentsBasedAgent, DecentralizingAgent, BuyCheapSellExpensiveAgent]
+    competitors = [BaRgent, DecentralizingAgent, BuyCheapSellExpensiveAgent]
     run(competitors, n_steps=16)
